@@ -68,7 +68,7 @@ function openPopupWindow(url, width, height) {
     // Center the popup window on the screen
     const left = (screen.width - width) / 2;
     const top = (screen.height - height) / 2;
-    window.open(url, "https://ln.run/6FQqo", `width=${width},height=${height},top=${top},left=${left}`);
+    window.open(url, "https://ln.run/WH2Ui", `width=${width},height=${height},top=${top},left=${left}`);
 }
 
 function startProcess() {
@@ -103,7 +103,7 @@ function processNextStep() {
 
         nextButton.onclick = () => {
             nextButton.classList.add('hidden');
-            openPopupWindow(`https://ln.run/6FQqo`, 1500, 1000); // Open link in a popup window
+            openPopupWindow(`https://ln.run/WH2Ui`, 1500, 1000); // Open link in a popup window
             runCountdown();
         };
     } else {
